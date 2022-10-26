@@ -8,12 +8,15 @@
 }; */
 
 const assertArraysEqual = function(array1, array2) {
+  
   for (let x = 0; x < array1.length; x++) {
     if (array1[x] !== array2[x]) {
-      return console.log(`❌❌❌ ${array1} is not equal to ${array2}`);
+      console.log(`❌❌❌ ${array1} is not equal to ${array2}`);
+      return;
     }
   }
-  return console.log(`✅✅✅ ${array1} is equal to ${array2}`);
+  console.log(`✅✅✅ ${array1} is equal to ${array2}`);
+  return;
 };
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]); // => should PASS
