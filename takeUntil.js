@@ -1,5 +1,5 @@
-const assertArraysEqual = function(array1, array2) {
-  
+const assertArraysEqual = function (array1, array2) {
+
   for (let x = 0; x < array1.length; x++) {
     if (array1[x] !== array2[x]) {
       console.log(`❌❌❌ ${array1} is not equal to ${array2}`);
@@ -18,7 +18,7 @@ const assertArraysEqual = function(array1, array2) {
 //it will keep collecting items until the callback returns a truthy value
 
 
-const takeUntil = function(array, callback) {
+const takeUntil = function (array, callback) {
   let index = 0;
   for (let item of array) {
     if (callback(item)) {
