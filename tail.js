@@ -1,5 +1,3 @@
-const assertEqual = require('./assertEqual');
-
 //needs to return the tail of an array - everything except the first item
 // it should not modify the array, just return a new array.
 // an array with only one element should yield an empty array for its tail

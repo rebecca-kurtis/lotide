@@ -1,5 +1,3 @@
-const assertEqual = require('./assertEqual');
-
 const head = function(data) {
   // create a function which returns the first item in the array as the element itself
   // an array with only one element should still yield that one element as its head
