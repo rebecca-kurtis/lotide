@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@rebeccakurtis/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a project library for my Lighthouse Labs Lotide project. This is used for a learning experience.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/rebecca-kurtis/lotide.git"
   },
-  "author": "",
+  "author": "Rebecca Kurtis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rebecca-kurtis/lotide/issues"
