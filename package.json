@@ -1,6 +1,6 @@
 {
   "name": "@rebeccakurtis/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a project library for my Lighthouse Labs Lotide project. This is used for a learning experience.",
   "main": "assertArraysEqual.js",
   "directories": {
